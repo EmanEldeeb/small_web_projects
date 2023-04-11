@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.square:nth-child(-n + 3) {
+  border-bottom: solid 1px #333;
+}
+.white {
+  background-color: #eee;
+}
+
+.black {
+  background-color: black;
+}
+
+.highlight {
+  background-color: #ffff0052;
+}
